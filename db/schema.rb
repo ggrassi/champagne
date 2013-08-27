@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 20130827203631) do
 
   create_table "posts", force: true do |t|
-    t.string   "tiel"
+    t.text     "title"
     t.text     "longitude"
     t.text     "latitude"
     t.text     "street"
